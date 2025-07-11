@@ -1,4 +1,17 @@
+
+/* raleway google font style */
+
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
 /* navbar style */
+
 ul{
     display: flex;
     align-items: center;
@@ -15,9 +28,7 @@ nav ul  {
     font-size: 20px;
 
 }
-.navbar{
-    margin-bottom: 200px;
-}
+
 /* background image style */
 .navbar {
     background: url('../Assets/Hero-bg.png') center center no-repeat;
@@ -32,7 +43,7 @@ nav ul  {
 
 }
 
-/* button style */
+/* shared button style */
 
 .button-style {
     color: #FFFFFF;
@@ -51,6 +62,7 @@ nav ul  {
 .button-style:hover{
     background-color: purple;
 }
+
 /* banner style */
 .banner {
   text-align: center;
@@ -236,8 +248,9 @@ nav ul  {
   padding: 70px 150px 70px 150px;
   border-radius: 14px;
   background-color: #FFFFFF;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.712);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.692);
   margin-top: 100px;
+  border-color: none;
 
 }
 
@@ -266,4 +279,106 @@ nav ul  {
   margin: 0 auto;
   padding: 80px 40px;
 }
+/* section box-model -5 style */
+.box-5 {
+  background-color: #f5f8ff;
+  
+}
 
+.box5 {
+  margin-top: 100px;       
+  margin-right: 200px;
+  margin-left:200px ; 
+  padding: 100px;
+  
+
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  color: #FFFFFF;
+}
+
+.contact-text {
+  flex: 1;
+  
+}
+
+.contact-title {
+  font-size: 97px;
+  font-weight: bold;
+  color: #000000;
+  max-width: 528px;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #4E47FF;
+}
+
+/* footer style */
+.footer {
+  text-align: center;
+  padding: 100px 450px;
+  background-color: #FFFFFF;
+  border-top: .70px solid #b3b3b359;
+}
+
+.logo {
+  color: #4E47FF;
+  font-size: 100px;
+  font-weight:900px;
+  margin-bottom: 15px;
+}
+
+.footer-description {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #8987A1;
+}
+
+.footer-nav a {
+  margin: 0px 15px;
+  font-size: 14px;
+  gap: 45px;
+  text-decoration: none;
+  color: #8987A1;
+}
+
+.footer-nav a:hover {
+  color: #3408f7;
+}
+
+/* icon section style */
+.icon {
+  color: #b3b3b3;
+}
+.icon:hover {
+  color: red;
+  cursor: pointer;
+  
+}
