@@ -82,7 +82,6 @@ nav ul  {
 .box {
     max-width: 520px;
     max-height: 320px;
-    margin-top: 38px;
     margin-bottom: 116px;
 }
 .title {
@@ -104,8 +103,45 @@ nav ul  {
 
 }
 /* main section-2 style */
-.about-items {
-    display: flex;
-    justify-content: space-around;
+
+.box-2 {
+  background-color: #4d47ff2a;
+  padding: 40px ;
+  text-align: center;
+  border-radius: 24px;
+  margin: 40px auto;
+  max-width: 1140px;
 }
+
+.box2 h2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #252432;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+  flex-wrap: wrap;
+}
+
+.start-item h3 {
+  font-size:80px;
+  font-weight: bold;
+  color: #4E47FF;
+  margin: 0;
+  
+}
+
+.description {
+  font-size:20px ;
+  font-weight: 400;
+  margin-top: 5px;
+   color: #00000085;
+}
+/* main section-3 style user feedback */
+
+
 
