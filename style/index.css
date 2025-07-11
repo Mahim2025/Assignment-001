@@ -112,6 +112,7 @@ nav ul  {
   border-radius: 24px;
   margin: 0px auto;
   max-width: 1140px;
+
 }
 
 .box2 h2 {
@@ -224,3 +225,45 @@ nav ul  {
   font-size: 12px;
   color: #b3b3b3;
 }
+
+
+/* section box-4 style */
+.box-4 {
+  text-align: center;
+  margin: 0px auto;
+  max-width: 1140px;
+  max-height: 50%;
+  padding: 70px 150px 70px 150px;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.712);
+  margin-top: 100px;
+
+}
+
+.box4 h1 {
+  font-size: 50px;
+  font-weight:bold ;
+  color:#000000 ;
+  margin-bottom: 20px
+
+}
+.box4 p {
+  font-size: 14px;
+    color: #252432;
+  
+}
+.box4 button {
+  margin-bottom: 20px;
+}
+.image {
+  border-radius: 48px;
+  max-width: 100%;
+}
+/* Common container for all sections  to same width*/
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
