@@ -15,6 +15,10 @@ nav ul  {
     font-size: 20px;
 
 }
+.navbar{
+    margin-bottom: 200px;
+}
+/* background image style */
 .navbar {
     background: url('../Assets/Hero-bg.png') center center no-repeat;
   background-size: cover;
@@ -27,6 +31,8 @@ nav ul  {
 
 
 }
+
+/* button style */
 
 .button-style {
     color: #FFFFFF;
@@ -45,6 +51,7 @@ nav ul  {
 .button-style:hover{
     background-color: purple;
 }
+/* banner style */
 .banner {
   text-align: center;
   padding: 100px 20px;
@@ -57,9 +64,48 @@ nav ul  {
     color: #252432;
     max-width: 900px;
     margin: 0px auto;
-    line-height: 1,2;
+    line-height: 1.2;
 
 }
-.navbar{
-    margin-bottom: 200px;
+
+/* main section-1 style */
+.box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 80px 40px;
+    gap: 220px;
+
 }
+.box {
+    max-width: 520px;
+    max-height: 320px;
+    margin-top: 38px;
+    margin-bottom: 116px;
+}
+.title {
+    font-size: 800px;
+    font-size: 42px;
+    color: #AAAAAA;
+    margin-top:20px ;
+
+}
+.box-description {
+    font-weight: 400;
+    font-size: 24px;
+    color: #AAAAAA;
+}
+.picture {
+    max-width: 100%;
+    border-radius: 48px;
+    display: block;
+
+}
+/* main section-2 style */
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
